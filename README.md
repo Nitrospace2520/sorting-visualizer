@@ -29,7 +29,7 @@ Check out the live demo of the Sorting Visualizer [here](https://sortdynamic.net
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sorting-visualizer.git
+   git clone https://github.com/Nitrospace2520/sorting-visualizer.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -49,33 +49,22 @@ Check out the live demo of the Sorting Visualizer [here](https://sortdynamic.net
 To start the development server, run:
 
 ```bash
-npm start
+npm run dev
 ```
 
 or
 
 ```bash
-yarn start
+yarn run dev
 ```
 
-Open your browser and go to `http://localhost:3000` to see the sorting visualizer in action.
+Open your browser and go to `http://localhost:5173` to see the sorting visualizer in action.
 
 ## Usage
 
 1. Select a sorting algorithm from the dropdown menu.
 2. Adjust the array size and speed using the sliders.
 3. Click the "Generate New Array" button to create a new array.
-4. Click the "Start Sorting" button to visualize the sorting process.
-
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- [React](https://reactjs.org/)
-- [D3.js](https://d3js.org/)
+4. Click the "Buble Sort" button to visualize the bubble sorting process.
+5. Click the "Selection Sort" button to visualize the selection sorting process.
+6. Click the "Insertion Sort" button to visualize the insertion sorting process.
