@@ -18,7 +18,7 @@ This project is a visual representation of various sorting algorithms. It helps 
 
 ### Live Demo
 
-Check out the live demo of the Sorting Visualizer [here](https://sortdynamic.netlify.app/).
+Check out the live demo of the Sorting Visualizer [SortDynamic](https://sortdynamic.netlify.app/).
 
 ### Prerequisites
 
