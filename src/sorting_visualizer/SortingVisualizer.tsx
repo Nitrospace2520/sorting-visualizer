@@ -37,7 +37,7 @@ const SortingVisualizer: React.FC = () => {
 
   // ## Handles if the "Array Size" slider is changed. ## //
   const onChangeArrayBarRangeSlider = (
-    event: Event | React.SyntheticEvent<Element, Event>,
+    _: Event | React.SyntheticEvent<Element, Event>,
     value: number | number[]
   ) => {
     if (typeof value === "number") {
@@ -48,7 +48,7 @@ const SortingVisualizer: React.FC = () => {
 
   // ## Handles if the "Animation Speed" slider is changed. ## //
   const onChangeAnimationSpeedRangeSlider = (
-    event: Event | React.SyntheticEvent<Element, Event>,
+    _: Event | React.SyntheticEvent<Element, Event>,
     value: number | number[]
   ) => {
     if (typeof value === "number") {
